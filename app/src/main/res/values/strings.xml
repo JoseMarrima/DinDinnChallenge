@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DinDinnChallenge</string>
+    <string name="pizza">Pizza</string>
+    <string name="sushi">Sushi</string>
+    <string name="drinks">Drinks</string>
+    <string name="button_to_go_to_cart">Button to go to cart</string>
+    <string name="delivery_is_free">Free delivery</string>
+    <string name="costs">Costs:</string>
+    <string name="image_of_the_food">image of the food</string>
+</resources>
