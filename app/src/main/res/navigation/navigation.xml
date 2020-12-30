@@ -6,5 +6,17 @@
     <fragment
         android:id="@+id/foodFragment"
         android:name="com.example.dindinnchallenge.views.food.FoodFragment"
-        android:label="FoodFragment" />
+        android:label="FoodFragment" >
+        <action
+            android:id="@+id/action_foodFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.dindinnchallenge.views.cart.CartFragment"
+        android:label="CartFragment" >
+        <action
+            android:id="@+id/action_cartFragment_to_foodFragment"
+            app:destination="@id/foodFragment" />
+    </fragment>
 </navigation>

@@ -7,6 +7,8 @@
     <string name="delivery_is_free">Free delivery</string>
     <string name="costs">Costs:</string>
     <string name="image_of_the_food">image of the food</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu">menu</string>
+    <string name="arrow">arrow</string>
+    <string name="fab_payment_description">fab payment description</string>
 </resources>

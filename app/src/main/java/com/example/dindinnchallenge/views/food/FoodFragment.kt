@@ -5,10 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.airbnb.mvrx.*
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.dindinnchallenge.R
-import com.example.dindinnchallenge.data.TypeOfFood.*
 import com.example.dindinnchallenge.databinding.FoodFragmentBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -47,6 +47,10 @@ class FoodFragment : BaseMvRxFragment() {
                     }
                 }
             }.attach()
+        }
+
+        binding.fabCartFragmentHome.setOnClickListener {
+            this.findNavController().navigate(FoodFragmentDirections.actionFoodFragmentToCartFragment())
         }
 
         return binding.root
